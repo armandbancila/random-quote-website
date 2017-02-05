@@ -1,0 +1,49 @@
+body {
+  padding-top:100px;
+  background-color:#32302F;
+  color:#32302F;
+}
+
+.container {
+  width:500px;
+  height:auto;
+  background-size:100%;
+  background-color:#F9F5D7;
+  border-radius:2%;
+  font-family:Garamond;
+  font-size:1.3em;
+}
+
+.row {
+  margin-top:50px;
+  margin-bottom:10px;
+}
+
+#twitter-button {
+  color:#F9F5D7;
+  font-size:0.8em;
+}
+
+#get-quote {
+font-size:0.8em;
+}
+
+.quote-row {
+  text-align: center;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+  color:#F9F5D7;
+  background-color:#32302F;
+  // border-color:#d65d0e;
+  // border-radius:0%;
+  // border-width:1px;
+  // border-left-width:1px;
+  // border-right-width:1px;
+  // margin-bottom:1px;
+  // margin-top:1px;
+}
