@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Random Quote Machine</title>
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
   <link rel="stylesheet" href="css/style.css" />
-  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="js/index.js"></script>
 </head>
 
@@ -15,15 +16,22 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
-        <p class="quote-row"><i class="fa fa-quote-left"></i><span id="quote-text">A random quote.</span><i class="fa fa-quote-right"></i></p>
-        <p class="pull-right">-<span id="quote-author">Author</span></p>
+        <p class="quote-row"><i class="fa fa-quote-left"></i><span id="quote-text">Quote</span><i class="fa fa-quote-right"></i></p>
+        <p class="pull-right">-<span id="author-text">Author</span></p>
         <br>
         <div class="row">
-          <div class="column col-xs-2 pull-left other"><a id="twitter-link"><button id="twitter-button" class="btn btn-primary"><i class="fa fa-twitter"></i></button></a></div>
-          <div class="column col-xs-3 pull-right other2"><button id="get-quote" class="btn btn-primary">new quote</button></div>
+          <div class="column col-xs-2 pull-left other">
+            <a id="twitter-link">
+              <button id="twitter-button" class="btn btn-primary"><i class="fa fa-twitter"></i></button>
+            </a>
+          </div>
+          <div class="column col-xs-3 pull-right other2">
+            <button id="get-quote" class="btn btn-primary">new quote</button>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </body>
+
 </html>
