@@ -13,11 +13,11 @@ body {
 
 #twitter-button {
   color: #F9F5D7;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 #get-quote {
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 #quote-text {
@@ -35,12 +35,16 @@ body {
 
 .quote-row {
   text-align: center;
-  margin-top: 40px;
-  margin-bottom: 30px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .buttons-row {
-  margin-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 15px;
 }
 
 .btn-primary,
