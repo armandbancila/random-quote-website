@@ -1,45 +1,46 @@
 body {
   padding-top: 100px;
   background-color: #32302F;
-  color: #32302F;
 }
 
 .container {
-  width: 500px;
+  width: 600px;
   height: auto;
   background-size: 100%;
   background-color: #F9F5D7;
-  border-radius: 2%;
-  font-family: "Garamond", serif;
-  font-size: 1.3em;
-}
-
-.row {
-  margin-top: 50px;
-  margin-bottom: 10px;
+  border-radius: 5px;
 }
 
 #twitter-button {
   color: #F9F5D7;
-  font-size: 0.8em;
+  font-size: 1.5em;
 }
 
 #get-quote {
-  font-size: 0.8em;
+  font-size: 1.5em;
 }
 
 #quote-text {
+  color: #32302F;
+  font-family: "Garamond", serif;
+  font-size: 2.5em;
   margin-left: 5px;
   margin-right: 5px;
 }
 
 #author-text {
+  font-size: 1.5em;
   margin-left: 5px;
-  
 }
 
 .quote-row {
   text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.buttons-row {
+  margin-bottom: 15px;
 }
 
 .btn-primary,
@@ -50,11 +51,8 @@ body {
   font-family: "Segoe", "Segoe UI", "Verdana", sans-serif;
   color: #F9F5D7;
   background-color: #32302F;
-  /*border-color: #d65d0e;
-  border-radius: 0%;
+  border-color: transparent;
+  border-radius: 5px;
   border-width: 1px;
-  border-left-width: 1px;
-  border-right-width: 1px;
-  margin-bottom: 1px;
-  margin-top: 1px;*/
+  padding-bottom: 8px;
 }
