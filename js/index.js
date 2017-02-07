@@ -15,7 +15,7 @@ function getQuote() {
       var quote = json.quote;
       var author = json.author;
       $("#quote-text").text(quote);
-      $("#author-text").text(author);
+      $("#author-text").text("-" + author);
       updateTwitterLink(quote, author);
     }
   });
